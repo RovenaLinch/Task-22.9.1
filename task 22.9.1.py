@@ -1,6 +1,6 @@
 def binary_search(array, element, left, right):
     if left > right:
-            return False
+        return False
     middle = (right + left) // 2
     if array[middle - 1] < element and element <= array[middle]:
         return [middle-1]
